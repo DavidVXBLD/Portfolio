@@ -100,7 +100,7 @@ textarea {
   }
 
   h1 {
-    font-size: 6vw;
+    font-size: 7vw;
     text-shadow: 0 0 4px #fff;
   }
 
@@ -113,12 +113,12 @@ textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
   }
 
   img {
-    height: 400px;
-    width: 400px;
+    height: 100px;
+    width: 100px;
   }
 
   .chad {
@@ -127,20 +127,20 @@ textarea {
   }
 
   p {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
   }
 
   h3 {
-    font-size: 3.5vw;
+    font-size: 5vw;
     font-family: 'Dancing Script', cursive;
   }
 
   h4, a {
-    font-size: 2vw;
+    font-size: 3.5vw;
   }
 
   .githubLink {
-    font-size: 1.25vw;
+    font-size: 2.5vw;
   }
 
   main {
@@ -163,7 +163,14 @@ textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
+  }
+
+  .indexMargin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
   }
 
   a:hover {
@@ -171,7 +178,34 @@ textarea {
   }
   
   .textContact, .tel {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
+  }
+
+
+
+  @media (min-width: 800px) {
+    a {
+      font-size: 2vw;
+    }
+
+    .indexTitle {
+      padding: 10vh 0;
+    }
+
+    .mycard {
+      padding-bottom: 8vh;
+    }
+
+    p {
+      font-size: 1.5vw;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
   }
 /* ==========================================================================
    Helper classes

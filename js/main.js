@@ -1,10 +1,11 @@
 
 function addCards() {
     let newTitleDiv = document.createElement("div");
-    newTitleDiv.setAttribute("class", "text-white text-center mb-5 d-flex flex-column");
+    newTitleDiv.setAttribute("class", "text-white text-center mb-2 d-flex flex-column");
     
     let newMainTitle = document.createElement("h3");
     let textMainTitle = document.createTextNode("Mes projets réalisés");
+    newMainTitle.setAttribute("class", "my-4 indexTitle");
     newMainTitle.appendChild(textMainTitle);
     newTitleDiv.appendChild(newMainTitle);
 
@@ -12,14 +13,14 @@ function addCards() {
 
     for(let i=0; i<6; i++) {
         let newDiv = document.createElement("div");
-        newDiv.setAttribute("class", "col col-4 text-center mb-5 d-flex flex-column");
+        newDiv.setAttribute("class", "col col-4 text-center my-4 d-flex flex-column mycard");
         
         let newTitle = document.createElement("h4");
-        newTitle.setAttribute("class", "text-white mb-4")
+        newTitle.setAttribute("class", "text-white mb-1")
         
         let img = document.createElement("img");
         img.src = "img/screen_" + i + ".png"
-        img.setAttribute("class", "img-fluid mt-2 margin");
+        img.setAttribute("class", "img-fluid mt-2 indexMargin");
         
         let textTitle = "";
         if(i === 0) {
