@@ -86,7 +86,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  header {
+  
+  h1, h2, h4, p, a {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Saira Condensed', sans-serif;
+  }
+  
+   header {
     background-image: url(../img/headerBackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -94,23 +100,47 @@ textarea {
   }
 
   h1 {
-    font-size: 5vw;
+    font-size: 6vw;
     text-shadow: 0 0 4px #fff;
   }
 
   .pHeader {
-    font-size: 3vw;
+    font-size: 4vw;
     text-shadow: 0 0 10px #fff;
   }
 
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
   img {
-    height: 350px;
-    width: 350px;
+    height: 400px;
+    width: 400px;
+  }
+
+  .chad {
+    height: 450px;
+    width: 450px;
+  }
+
+  p {
+    font-size: 1.5vw;
   }
 
   h3 {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  h4, a {
+    font-size: 2vw;
+  }
+
+  .githubLink {
+    font-size: 1.25vw;
   }
 
   main {
@@ -120,7 +150,29 @@ textarea {
     background-position: center;
   }
 
+  .mar {
+    margin: 0 8vw;
+  }
+
+  a {
+    text-decoration: none;
+    color: cyan;
+  }
+
+  .margin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  a:hover {
+    color: white;
+  }
   
+  .textContact, .tel {
+    font-size: 1.5vw;
+  }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
