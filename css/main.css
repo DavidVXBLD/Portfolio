@@ -87,12 +87,52 @@ textarea {
    Author's custom styles
    ========================================================================== */
   
+  /* ############################################# GENERAL CSS ################################################### */
+
   h1, h2, h4, p, a {
     font-family: 'Dancing Script', cursive;
     font-family: 'Saira Condensed', sans-serif;
   }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .centerBean {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
   
-   header {
+  p {
+    font-size: 2.5vw;
+  }
+
+  h3 {
+    font-size: 5vw;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  h4, a {
+    font-size: 3.5vw;
+  }
+
+  
+  a {
+    text-decoration: none;
+    color: cyan;
+  }
+
+  a:hover {
+    color: white;
+  }
+  /* ############################################# HEADER ################################################### */
+  
+  header {
     background-image: url(../img/headerBackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,35 +149,7 @@ textarea {
     text-shadow: 0 0 10px #fff;
   }
 
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-  }
-
-  img {
-    height: 100px;
-    width: 100px;
-  }
-
-  .chad {
-    height: 450px;
-    width: 450px;
-  }
-
-  p {
-    font-size: 2.5vw;
-  }
-
-  h3 {
-    font-size: 5vw;
-    font-family: 'Dancing Script', cursive;
-  }
-
-  h4, a {
-    font-size: 3.5vw;
-  }
+  /* ############################################# MAIN(S) ################################################### */
 
   .githubLink {
     font-size: 2.5vw;
@@ -150,38 +162,22 @@ textarea {
     background-position: center;
   }
 
-  .mar {
-    margin: 0 8vw;
-  }
-
-  a {
-    text-decoration: none;
-    color: cyan;
-  }
-
-  .margin {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-  }
-
   .indexMargin {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
   }
-
-  a:hover {
-    color: white;
-  }
   
   .textContact, .tel {
     font-size: 2.5vw;
   }
 
+  .padding {
+    padding: 15vh;
+  }
 
+  /* ############################################# MEDIA QUERY ################################################### */
 
   @media (min-width: 800px) {
     a {

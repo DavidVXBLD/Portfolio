@@ -13,7 +13,7 @@ function addCards() {
 
     for(let i=0; i<6; i++) {
         let newDiv = document.createElement("div");
-        newDiv.setAttribute("class", "col col-4 text-center my-4 d-flex flex-column mycard");
+        newDiv.setAttribute("class", "col col-4 text-center my-4 d-flex flex-column");
         
         let newTitle = document.createElement("h4");
         newTitle.setAttribute("class", "text-white mb-1")

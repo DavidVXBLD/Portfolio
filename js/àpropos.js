@@ -1,10 +1,10 @@
 function addBio() {
     let newDiv = document.createElement("div");
-    newDiv.setAttribute("class", "col col-12 text-white");
+    newDiv.setAttribute("class", "col col-12 text-white indexMargin");
     
-    let chad = document.createElement("img");
-    chad.src = "img/gigachad.jpg"
-    chad.setAttribute("class", "img-fluid center mb-5")
+    let mrBean = document.createElement("img");
+    mrBean.src = "img/MrBean.jpg"
+    mrBean.setAttribute("class", "img-fluid centerBean mb-5")
 
     let newTitle = document.createElement("h3");
     let textTitle = document.createTextNode("En savoir plus sur moi");
@@ -33,10 +33,10 @@ function addBio() {
 
     let pBio3 = document.createElement("p");
     let bio3 = document.createTextNode("Dans ma formation actuelle, les langages Front-End étudiés sont: le HTML, le CSS et le JS. Le framework Front-end vu est React. En ce qui concerne les langages Back-End, les langages sont: PHP, MySQL et le framework Back-end est Symfony.");
-    pBio3.setAttribute("class", "mb-4");
+    pBio3.setAttribute("class", "pb-4 m-0");
     pBio3.appendChild(bio3);
 
-    newDiv.append(chad, newTitle, pBio, newTitle2, pBio2, newTitle3, pBio3)
+    newDiv.append(mrBean, newTitle, pBio, newTitle2, pBio2, newTitle3, pBio3)
     document.getElementById("main").appendChild(newDiv);
 }
 
