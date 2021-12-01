@@ -1,13 +1,17 @@
 
 function addCards() {
     let newTitleDiv = document.createElement("div");
-    newTitleDiv.setAttribute("class", "text-white text-center mb-2 d-flex flex-column");
+    newTitleDiv.setAttribute("class", "text-white text-center mb-2 d-flex flex-column indexTitle");
     
     let newMainTitle = document.createElement("h3");
     let textMainTitle = document.createTextNode("Mes projets réalisés");
-    newMainTitle.setAttribute("class", "my-4 indexTitle");
+    newMainTitle.setAttribute("class", "mt-4");
+    
+    let cyanLine = document.createElement("div");
+    cyanLine.setAttribute("class", "line centerTitleLine mb-4");
+    
     newMainTitle.appendChild(textMainTitle);
-    newTitleDiv.appendChild(newMainTitle);
+    newTitleDiv.append(newMainTitle, cyanLine);
 
     document.getElementById("main").appendChild(newTitleDiv);
 

@@ -144,6 +144,17 @@ textarea {
     text-shadow: 0 0 4px #fff;
   }
 
+  .line {
+    height: 1px;
+    background-color: cyan;
+  }
+
+  .centerLine {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
   .pHeader {
     font-size: 4vw;
     text-shadow: 0 0 10px #fff;
@@ -168,6 +179,12 @@ textarea {
     margin-right: auto;
     width: 90%;
   }
+
+  .centerTitleLine {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
   
   .textContact, .tel {
     font-size: 2.5vw;
@@ -175,6 +192,16 @@ textarea {
 
   .padding {
     padding: 15vh;
+  }
+
+  .centerLineC {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+  .marginB {
+    margin-bottom: 4vh ;
   }
 
   /* ############################################# MEDIA QUERY ################################################### */
@@ -201,6 +228,28 @@ textarea {
       margin-left: auto;
       margin-right: auto;
       width: 50%;
+    }
+
+    .centerLineC {
+      margin-left: auto;
+      margin-right: auto;
+      width: 65%;
+    }
+
+    .marginB {
+      margin-bottom: 6vh ;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .centerLineC {
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    .marginB {
+      margin-bottom: 10vh ;
     }
   }
 /* ==========================================================================
